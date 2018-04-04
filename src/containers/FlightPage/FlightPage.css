@@ -1,0 +1,28 @@
+.headerTitle {
+    margin: 10px 0;
+    padding: 20px 0;
+    border-bottom: 1px solid gray;
+    font-size: 4em;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0;
+    background: #666666;
+    padding: 10px 10px;
+    color: white;
+}
+
+.field span {
+    color: orange;
+}

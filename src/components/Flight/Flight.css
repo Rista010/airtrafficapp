@@ -1,0 +1,24 @@
+.Flight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    margin: 10px 0;
+    background: #666666;
+    padding: 0 10px;
+    color: white;
+}
+
+.Flight:hover {
+    cursor: pointer;
+    background: #555555;
+}
+
+.East {
+
+}
+
+.West {
+    transform: rotate(180deg);
+}
