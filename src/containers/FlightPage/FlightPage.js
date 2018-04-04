@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Aux from '../../Aux';
+import Wrapper from '../../Wrapper';
 import axios from 'axios';
 import classes from './FlightPage.css';
 
@@ -31,7 +31,7 @@ class FlightPage extends Component {
     render(){
         this.getLogo(this.state.flights.Op);
         return(
-            <Aux>
+            <Wrapper>
                 <div className={classes.headerTitle}>Flight Page</div>
                 <div>
                     <div className={classes.logo}>
@@ -42,7 +42,7 @@ class FlightPage extends Component {
                     <div className={classes.field}><span>Origin:</span> {this.state.flights.From}</div>
                     <div className={classes.field}><span>Destination:</span> {this.state.flights.To}</div>
                 </div>
-            </Aux>
+            </Wrapper>
         );
     }
 }

@@ -1,14 +1,14 @@
 import React from 'react';
-import Aux from './Aux';
+import Wrapper from './Wrapper';
 import classes from './Layout.css';
 
 const layout = (props) => (
-    <Aux>
+    <Wrapper>
         <div className={classes.header}>Air Traffic App</div>
         <main className={classes.Layout}>
             {props.children}
         </main>
-    </Aux>
+    </Wrapper>
 );
 
 export default layout;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Flight from '../../components/Flight/Flight';
-import Aux from '../../Aux';
+import Wrapper from '../../Wrapper';
 import axios from 'axios';
 import classes from './FlightList.css';
 
@@ -45,7 +45,7 @@ class FlightList extends Component {
 
     render(){
         return(
-            <Aux>
+            <Wrapper>
                 <div className={classes.headerTitle}>Flight List</div>
                 <div className={classes.FlightTitle}>
                     <p>
@@ -63,7 +63,7 @@ class FlightList extends Component {
                         <Flight onClick={this.openFlight} key={flight.Id} flights={flight}/>
                     ))
                 }
-            </Aux>
+            </Wrapper>
         );
     }
 }
