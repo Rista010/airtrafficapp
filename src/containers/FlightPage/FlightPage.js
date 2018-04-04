@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Aux from '../../hoc/Aux';
+import Aux from '../../Aux';
 import axios from 'axios';
 import classes from './FlightPage.css';
 

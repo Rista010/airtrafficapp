@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Flight from '../../components/Flight/Flight';
-import Aux from '../../hoc/Aux';
+import Aux from '../../Aux';
 import axios from 'axios';
 import classes from './FlightList.css';
 
